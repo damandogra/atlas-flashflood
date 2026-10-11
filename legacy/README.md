@@ -2,6 +2,10 @@
 
 Reference only. Nothing in `pipeline/` or `web/` imports from here.
 
+<img width="834" height="522" alt="Atlas v1 dashboard from the Cassini Hackathon" src="https://github.com/user-attachments/assets/936222e1-dd6c-4680-a00e-98d453e86905" />
+
+*The v1 dashboard as presented at the Cassini Hackathon.*
+
 | Folder | Came from | What it was |
 |---|---|---|
 | `hydrology_v1/` | branch `data-extraction` (was `Hydrology_Part_A`) | Sentinel Hub NDVI/DEM download, per-pixel SCS-CN, Manning velocity, RUSLE |
