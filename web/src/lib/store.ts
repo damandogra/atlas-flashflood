@@ -16,6 +16,7 @@ interface State {
   playing: boolean;
   layer: FloodLayer;
   terrain3d: boolean;
+  basemap: "satellite" | "terrain";
   selectedVillage: string | null;
   panelOpen: boolean;
   fly: { ll: [number, number]; n: number } | null;
@@ -31,6 +32,7 @@ export const useStore = create<State>((set) => ({
   playing: false,
   layer: "hazard",
   terrain3d: false,
+  basemap: "satellite",
   selectedVillage: null,
   panelOpen: true,
   fly: null,
