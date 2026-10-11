@@ -1,0 +1,8 @@
+Control: Design_48h
+     Description: 48 h design run, 5 min step
+     Start Date: 01Jan2000
+     Start Time: 00:00
+     End Date: 03Jan2000
+     End Time: 00:00
+     Time Interval: 5
+End:

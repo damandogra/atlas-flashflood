@@ -1,0 +1,98 @@
+Meteorology: T10_central
+     Description: T10 central design storm (outlet storm area)
+     Version: 4.12
+     Unit System: Metric
+     Set Missing Data to Default: Yes
+     Precipitation Method: Specified Hyetograph
+     Air Temperature Method: None
+     Evapotranspiration Method: No Evapotranspiration
+     Snowmelt Method: None
+     Use Basin Model: Ounila
+End:
+
+Precip Method Parameters: Specified Hyetograph
+End:
+
+Subbasin: SB01 Ait Ben Haddou
+     Gage: T10_central
+End:
+
+Subbasin: SB02 Tamdakhte
+     Gage: T10_central
+End:
+
+Subbasin: SB03 Tazlaft
+     Gage: T10_central
+End:
+
+Subbasin: SB04 Confluence 372 km2
+     Gage: T10_central
+End:
+
+Subbasin: SB05 Ankhsa
+     Gage: T10_central
+End:
+
+Subbasin: SB06 Taifest
+     Gage: T10_central
+End:
+
+Subbasin: SB07 Confluence 288 km2
+     Gage: T10_central
+End:
+
+Subbasin: SB08 Douar Tigert
+     Gage: T10_central
+End:
+
+Subbasin: SB09 Ait Fars
+     Gage: T10_central
+End:
+
+Subbasin: SB10 Tizgui NBarda
+     Gage: T10_central
+End:
+
+Subbasin: SB11 Assaka
+     Gage: T10_central
+End:
+
+Subbasin: SB12 Tajeguite
+     Gage: T10_central
+End:
+
+Subbasin: SB13 Confluence 183 km2
+     Gage: T10_central
+End:
+
+Subbasin: SB14 Anmiter
+     Gage: T10_central
+End:
+
+Subbasin: SB15 Tighza
+     Gage: T10_central
+End:
+
+Subbasin: SB16 Confluence 71 km2
+     Gage: T10_central
+End:
+
+Subbasin: SB17 Taboughamt
+     Gage: T10_central
+End:
+
+Subbasin: SB18 Telouet
+     Gage: T10_central
+End:
+
+Subbasin: SB19 Timjoujte
+     Gage: T10_central
+End:
+
+Subbasin: SB20 Akji
+     Gage: T10_central
+End:
+
+Subbasin: SB21 Ouzlim
+     Gage: T10_central
+End:

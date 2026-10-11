@@ -1,0 +1,21 @@
+reach,from_junction,to_junction,method,length_m,energy_slope,mannings_n,shape,width_m
+R02 Tamdakhte,J02 Tamdakhte,J01 Ait Ben Haddou,Muskingum-Cunge,6389.8,0.00664,0.045,Rectangle,79.7
+R03 Tazlaft,J03 Tazlaft,J02 Tamdakhte,Muskingum-Cunge,984.0,0.00712,0.045,Rectangle,59.5
+R04 Confluence 372 km2,J04 Confluence 372 km2,J03 Tazlaft,Muskingum-Cunge,9758.7,0.0086,0.045,Rectangle,57.9
+R05 Ankhsa,J05 Ankhsa,J04 Confluence 372 km2,Muskingum-Cunge,302.1,0.01865,0.045,Rectangle,52.9
+R06 Taifest,J06 Taifest,J02 Tamdakhte,Muskingum-Cunge,3919.2,0.00902,0.045,Rectangle,52.3
+R07 Confluence 288 km2,J07 Confluence 288 km2,J05 Ankhsa,Muskingum-Cunge,5260.1,0.01326,0.045,Rectangle,50.9
+R08 Douar Tigert,J08 Douar Tigert,J06 Taifest,Muskingum-Cunge,2513.1,0.01052,0.045,Rectangle,50.0
+R09 Ait Fars,J09 Ait Fars,J08 Douar Tigert,Muskingum-Cunge,1176.4,0.01188,0.045,Rectangle,49.9
+R10 Tizgui NBarda,J10 Tizgui NBarda,J09 Ait Fars,Muskingum-Cunge,4920.7,0.01208,0.045,Rectangle,47.8
+R11 Assaka,J11 Assaka,J10 Tizgui NBarda,Muskingum-Cunge,6734.4,0.02266,0.045,Rectangle,45.2
+R12 Tajeguite,J12 Tajeguite,J11 Assaka,Muskingum-Cunge,1296.4,0.00542,0.045,Rectangle,44.0
+R13 Confluence 183 km2,J13 Confluence 183 km2,J07 Confluence 288 km2,Muskingum-Cunge,13587.9,0.0138,0.045,Rectangle,40.6
+R14 Anmiter,J14 Anmiter,J12 Tajeguite,Muskingum-Cunge,7978.1,0.01624,0.045,Rectangle,38.6
+R15 Tighza,J15 Tighza,J14 Anmiter,Muskingum-Cunge,5565.3,0.01857,0.045,Rectangle,29.9
+R16 Confluence 71 km2,J16 Confluence 71 km2,J15 Tighza,Muskingum-Cunge,6569.8,0.04208,0.045,Rectangle,25.3
+R17 Taboughamt,J17 Taboughamt,J13 Confluence 183 km2,Muskingum-Cunge,9968.7,0.01699,0.045,Rectangle,14.2
+R18 Telouet,J18 Telouet,J13 Confluence 183 km2,Muskingum-Cunge,6272.0,0.01571,0.045,Rectangle,12.2
+R19 Timjoujte,J19 Timjoujte,J18 Telouet,Muskingum-Cunge,3137.1,0.04201,0.045,Rectangle,11.5
+R20 Akji,J20 Akji,J13 Confluence 183 km2,Muskingum-Cunge,7535.4,0.02244,0.045,Rectangle,9.5
+R21 Ouzlim,J21 Ouzlim,J20 Akji,Muskingum-Cunge,1561.2,0.04246,0.045,Rectangle,8.1

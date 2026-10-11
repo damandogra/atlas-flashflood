@@ -1,0 +1,692 @@
+{
+ "title": "Atlas - flash flood decision support, Ounila valley (Morocco)",
+ "library": [
+  {
+   "name": "P20",
+   "p24_mm": 20.0,
+   "return_period": "below 2-year",
+   "buildings_affected": 40,
+   "people_affected": 37,
+   "road_km_closed": 3.9,
+   "fords_closed": 1,
+   "villages_isolated": []
+  },
+  {
+   "name": "P25",
+   "p24_mm": 25.0,
+   "return_period": "below 2-year",
+   "buildings_affected": 50,
+   "people_affected": 45,
+   "road_km_closed": 20.3,
+   "fords_closed": 5,
+   "villages_isolated": [
+    "Ankhsa"
+   ]
+  },
+  {
+   "name": "T2",
+   "p24_mm": 31.6,
+   "return_period": "2-year",
+   "buildings_affected": 66,
+   "people_affected": 52,
+   "road_km_closed": 34.8,
+   "fords_closed": 9,
+   "villages_isolated": [
+    "Ankhsa",
+    "Tighza"
+   ]
+  },
+  {
+   "name": "T5",
+   "p24_mm": 45.3,
+   "return_period": "5-year",
+   "buildings_affected": 108,
+   "people_affected": 102,
+   "road_km_closed": 43.8,
+   "fords_closed": 12,
+   "villages_isolated": [
+    "Ait Fars",
+    "Ankhsa",
+    "Assaka",
+    "Douar Tigert",
+    "Taifest",
+    "Tajeguite",
+    "Tamdakhte",
+    "Tazlaft",
+    "Tigherte",
+    "Tighza",
+    "Tiliwine",
+    "Tizgui N'Barda"
+   ]
+  },
+  {
+   "name": "T10",
+   "p24_mm": 54.5,
+   "return_period": "10-year",
+   "buildings_affected": 135,
+   "people_affected": 135,
+   "road_km_closed": 62.2,
+   "fords_closed": 16,
+   "villages_isolated": [
+    "Ait Fars",
+    "Akji",
+    "Ankhsa",
+    "Anmiter",
+    "Assaka",
+    "Aït Hammou",
+    "Douar Tigert",
+    "Ouzlim",
+    "Taboughamt",
+    "Taifest",
+    "Tajeguite",
+    "Tamdakhte",
+    "Tazlaft",
+    "Tigherte",
+    "Tighza",
+    "Tiliwine",
+    "Timjoujte",
+    "Tizgui N'Barda",
+    "Télouet"
+   ]
+  },
+  {
+   "name": "T25",
+   "p24_mm": 66.4,
+   "return_period": "25-year",
+   "buildings_affected": 167,
+   "people_affected": 178,
+   "road_km_closed": 71.4,
+   "fords_closed": 17,
+   "villages_isolated": [
+    "Ait Fars",
+    "Akji",
+    "Ankhsa",
+    "Anmiter",
+    "Assaka",
+    "Aït Hammou",
+    "Douar Tigert",
+    "Ouzlim",
+    "Taboughamt",
+    "Taifest",
+    "Tajeguite",
+    "Tamdakhte",
+    "Tazlaft",
+    "Tigherte",
+    "Tighza",
+    "Tiliwine",
+    "Timjoujte",
+    "Tizgui N'Barda",
+    "Télouet"
+   ]
+  },
+  {
+   "name": "T50",
+   "p24_mm": 75.3,
+   "return_period": "50-year",
+   "buildings_affected": 196,
+   "people_affected": 210,
+   "road_km_closed": 80.8,
+   "fords_closed": 18,
+   "villages_isolated": [
+    "Ait Fars",
+    "Akji",
+    "Ankhsa",
+    "Anmiter",
+    "Assaka",
+    "Aït Hammou",
+    "Douar Tigert",
+    "Ouzlim",
+    "Taboughamt",
+    "Taifest",
+    "Tajeguite",
+    "Tamdakhte",
+    "Tazlaft",
+    "Tigherte",
+    "Tighza",
+    "Tiliwine",
+    "Timjoujte",
+    "Tizgui N'Barda",
+    "Télouet"
+   ]
+  },
+  {
+   "name": "T100",
+   "p24_mm": 84.4,
+   "return_period": "100-year",
+   "buildings_affected": 230,
+   "people_affected": 249,
+   "road_km_closed": 96.3,
+   "fords_closed": 18,
+   "villages_isolated": [
+    "Ait Fars",
+    "Akji",
+    "Ankhsa",
+    "Anmiter",
+    "Assaka",
+    "Aït Hammou",
+    "Douar Tigert",
+    "Ouzlim",
+    "Taboughamt",
+    "Taifest",
+    "Tajeguite",
+    "Tamdakhte",
+    "Tazlaft",
+    "Tigherte",
+    "Tighza",
+    "Tiliwine",
+    "Timjoujte",
+    "Tizgui N'Barda",
+    "Télouet"
+   ]
+  },
+  {
+   "name": "T200",
+   "p24_mm": 93.5,
+   "return_period": "200-year",
+   "buildings_affected": 267,
+   "people_affected": 294,
+   "road_km_closed": 103.1,
+   "fords_closed": 18,
+   "villages_isolated": [
+    "Ait Fars",
+    "Akji",
+    "Ankhsa",
+    "Anmiter",
+    "Assaka",
+    "Aït Hammou",
+    "Douar Tigert",
+    "Ouzlim",
+    "Taboughamt",
+    "Taifest",
+    "Tajeguite",
+    "Tamdakhte",
+    "Tazlaft",
+    "Tigherte",
+    "Tighza",
+    "Tiliwine",
+    "Timjoujte",
+    "Tizgui N'Barda",
+    "Télouet"
+   ]
+  },
+  {
+   "name": "T500",
+   "p24_mm": 105.7,
+   "return_period": "500-year",
+   "buildings_affected": 323,
+   "people_affected": 358,
+   "road_km_closed": 110.6,
+   "fords_closed": 19,
+   "villages_isolated": [
+    "Ait Fars",
+    "Akji",
+    "Ankhsa",
+    "Anmiter",
+    "Assaka",
+    "Aït Hammou",
+    "Douar Tigert",
+    "Ouzlim",
+    "Taboughamt",
+    "Taifest",
+    "Tajeguite",
+    "Tamdakhte",
+    "Tazlaft",
+    "Tigherte",
+    "Tighza",
+    "Tiliwine",
+    "Timjoujte",
+    "Tizgui N'Barda",
+    "Télouet"
+   ]
+  },
+  {
+   "name": "P120",
+   "p24_mm": 120.0,
+   "return_period": "beyond 500-year",
+   "buildings_affected": 355,
+   "people_affected": 395,
+   "road_km_closed": 129.5,
+   "fords_closed": 22,
+   "villages_isolated": [
+    "Ait Fars",
+    "Akji",
+    "Ankhsa",
+    "Anmiter",
+    "Assaka",
+    "Aït Hammou",
+    "Douar Tigert",
+    "Ouzlim",
+    "Taboughamt",
+    "Taifest",
+    "Tajeguite",
+    "Tamdakhte",
+    "Tazlaft",
+    "Tigherte",
+    "Tighza",
+    "Tiliwine",
+    "Timjoujte",
+    "Tizgui N'Barda",
+    "Télouet"
+   ]
+  },
+  {
+   "name": "P140",
+   "p24_mm": 140.0,
+   "return_period": "beyond 500-year",
+   "buildings_affected": 418,
+   "people_affected": 456,
+   "road_km_closed": 138.8,
+   "fords_closed": 23,
+   "villages_isolated": [
+    "Ait Fars",
+    "Akji",
+    "Ankhsa",
+    "Anmiter",
+    "Assaka",
+    "Aït Hammou",
+    "Douar Tigert",
+    "Ouzlim",
+    "Taboughamt",
+    "Taifest",
+    "Tajeguite",
+    "Tamdakhte",
+    "Tazlaft",
+    "Tigherte",
+    "Tighza",
+    "Tiliwine",
+    "Timjoujte",
+    "Tizgui N'Barda",
+    "Télouet"
+   ]
+  },
+  {
+   "name": "P160",
+   "p24_mm": 160.0,
+   "return_period": "beyond 500-year",
+   "buildings_affected": 445,
+   "people_affected": 477,
+   "road_km_closed": 162.0,
+   "fords_closed": 23,
+   "villages_isolated": [
+    "Ait Fars",
+    "Akji",
+    "Ankhsa",
+    "Anmiter",
+    "Assaka",
+    "Aït Hammou",
+    "Douar Tigert",
+    "Ouzlim",
+    "Taboughamt",
+    "Taifest",
+    "Tajeguite",
+    "Tamdakhte",
+    "Tazlaft",
+    "Tigherte",
+    "Tighza",
+    "Tiliwine",
+    "Timjoujte",
+    "Tizgui N'Barda",
+    "Télouet"
+   ]
+  }
+ ],
+ "raster": {
+  "corners_lonlat": [
+   [
+    -7.390709,
+    31.373451
+   ],
+   [
+    -6.978907,
+    31.367622
+   ],
+   [
+    -6.986023,
+    31.032448
+   ],
+   [
+    -7.396376,
+    31.038201
+   ]
+  ],
+  "width": 1306,
+  "height": 1239,
+  "flood": {
+   "r": [
+    "depth_m",
+    40
+   ],
+   "g": [
+    "velocity_ms",
+    40
+   ],
+   "b": [
+    "first_water_01_h",
+    5
+   ]
+  },
+  "time": {
+   "r": [
+    "first_water_03_h",
+    5
+   ],
+   "g": [
+    "duration_03_h",
+    5
+   ],
+   "b": [
+    "hv_max",
+    40
+   ]
+  }
+ },
+ "design_burst_h": 12.0,
+ "alert_rules": {
+  "red": {
+   "scenario": "T50",
+   "prob": 0.3,
+   "deterministic": "T25"
+  },
+  "orange": {
+   "scenario": "T10",
+   "prob": 0.3,
+   "deterministic": "T5"
+  },
+  "yellow": {
+   "scenario": "T2",
+   "prob": 0.3,
+   "deterministic": "P25"
+  }
+ },
+ "correction_factor": 1.429,
+ "catchment_km2": 730.9,
+ "population": 15571,
+ "validation": {
+  "water_balance": {
+   "observed_total_runoff_mm_yr": 55.4,
+   "storm_share_range": [
+    0.35,
+    0.65
+   ],
+   "observed_storm_runoff_mm_yr": [
+    19.4,
+    36.0
+   ],
+   "n_events": 2676,
+   "levels": {
+    "low": {
+     "factor": 0.872,
+     "precip_mm_yr": 297.0,
+     "storm_runoff_mm_yr": 4.6
+    },
+    "central": {
+     "factor": 1.429,
+     "precip_mm_yr": 487.0,
+     "storm_runoff_mm_yr": 28.1
+    },
+    "high": {
+     "factor": 2.136,
+     "precip_mm_yr": 728.0,
+     "storm_runoff_mm_yr": 83.0
+    }
+   }
+  },
+  "outlet_k": {
+   "2": 2.37,
+   "5": 3.11,
+   "10": 3.44,
+   "25": 3.75,
+   "50": 3.94,
+   "100": 4.1,
+   "200": 4.23,
+   "500": 4.39
+  },
+  "regional": [
+   {
+    "name": "Ourika at Aghbalou Q10",
+    "area_km2": 503,
+    "peak_m3s": 485,
+    "k": 3.74,
+    "source": "Saidi et al. 2010 (ABH Tensift gauge)"
+   },
+   {
+    "name": "Ourika at Aghbalou Q2",
+    "area_km2": 503,
+    "peak_m3s": 103,
+    "k": 2.47,
+    "source": "Saidi et al. 2010"
+   },
+   {
+    "name": "Ourika 17 Aug 1995 (record)",
+    "area_km2": 503,
+    "peak_m3s": 1030,
+    "k": 4.36,
+    "source": "Saidi et al. 2010"
+   },
+   {
+    "name": "Ourika 28 Oct 1999",
+    "area_km2": 503,
+    "peak_m3s": 762,
+    "k": 4.12,
+    "source": "Saidi et al. 2010"
+   },
+   {
+    "name": "Ourika 2 Nov 1987",
+    "area_km2": 503,
+    "peak_m3s": 650,
+    "k": 3.98,
+    "source": "Saidi et al. 2010"
+   }
+  ]
+ },
+ "idf_t100_24h_mm": 84.4,
+ "subbasins": [
+  {
+   "id": 21,
+   "name": "Ouzlim",
+   "area_km2": 7.331,
+   "cn": 79.7
+  },
+  {
+   "id": 20,
+   "name": "Akji",
+   "area_km2": 2.641,
+   "cn": 76.9
+  },
+  {
+   "id": 19,
+   "name": "Timjoujte",
+   "area_km2": 14.822,
+   "cn": 79.9
+  },
+  {
+   "id": 18,
+   "name": "Télouet",
+   "area_km2": 1.639,
+   "cn": 78.2
+  },
+  {
+   "id": 17,
+   "name": "Taboughamt",
+   "area_km2": 22.268,
+   "cn": 81.2
+  },
+  {
+   "id": 16,
+   "name": "Confluence 71 km2",
+   "area_km2": 71.268,
+   "cn": 82.5
+  },
+  {
+   "id": 15,
+   "name": "Tighza",
+   "area_km2": 27.979,
+   "cn": 81.5
+  },
+  {
+   "id": 14,
+   "name": "Anmiter",
+   "area_km2": 66.096,
+   "cn": 82.0
+  },
+  {
+   "id": 13,
+   "name": "Confluence 183 km2",
+   "area_km2": 134.069,
+   "cn": 80.1
+  },
+  {
+   "id": 12,
+   "name": "Tajeguite",
+   "area_km2": 49.591,
+   "cn": 85.7
+  },
+  {
+   "id": 11,
+   "name": "Assaka",
+   "area_km2": 11.801,
+   "cn": 86.1
+  },
+  {
+   "id": 10,
+   "name": "Tizgui N'Barda",
+   "area_km2": 26.947,
+   "cn": 87.3
+  },
+  {
+   "id": 9,
+   "name": "Ait Fars",
+   "area_km2": 22.898,
+   "cn": 85.9
+  },
+  {
+   "id": 8,
+   "name": "Douar Tigert",
+   "area_km2": 1.082,
+   "cn": 82.6
+  },
+  {
+   "id": 7,
+   "name": "Confluence 288 km2",
+   "area_km2": 104.95,
+   "cn": 86.3
+  },
+  {
+   "id": 6,
+   "name": "Taifest",
+   "area_km2": 25.877,
+   "cn": 85.3
+  },
+  {
+   "id": 5,
+   "name": "Ankhsa",
+   "area_km2": 23.149,
+   "cn": 87.6
+  },
+  {
+   "id": 4,
+   "name": "Confluence 372 km2",
+   "area_km2": 61.577,
+   "cn": 85.0
+  },
+  {
+   "id": 3,
+   "name": "Tazlaft",
+   "area_km2": 20.758,
+   "cn": 86.2
+  },
+  {
+   "id": 2,
+   "name": "Tamdakhte",
+   "area_km2": 9.873,
+   "cn": 84.7
+  },
+  {
+   "id": 1,
+   "name": "Ait Ben Haddou",
+   "area_km2": 24.303,
+   "cn": 86.0
+  }
+ ],
+ "rain_points": [
+  {
+   "lon": -7.35,
+   "lat": 31.1501,
+   "w": 0.00585
+  },
+  {
+   "lon": -7.35,
+   "lat": 31.2501,
+   "w": 0.11211
+  },
+  {
+   "lon": -7.35,
+   "lat": 31.3501,
+   "w": 0.00707
+  },
+  {
+   "lon": -7.25,
+   "lat": 31.0501,
+   "w": 0.0
+  },
+  {
+   "lon": -7.25,
+   "lat": 31.1501,
+   "w": 0.09454
+  },
+  {
+   "lon": -7.25,
+   "lat": 31.2501,
+   "w": 0.14448
+  },
+  {
+   "lon": -7.25,
+   "lat": 31.3501,
+   "w": 0.06987
+  },
+  {
+   "lon": -7.15,
+   "lat": 31.0501,
+   "w": 0.0368
+  },
+  {
+   "lon": -7.15,
+   "lat": 31.1501,
+   "w": 0.14286
+  },
+  {
+   "lon": -7.15,
+   "lat": 31.2501,
+   "w": 0.13814
+  },
+  {
+   "lon": -7.15,
+   "lat": 31.3501,
+   "w": 0.10162
+  },
+  {
+   "lon": -7.05,
+   "lat": 31.1501,
+   "w": 0.02021
+  },
+  {
+   "lon": -7.05,
+   "lat": 31.2501,
+   "w": 0.03419
+  },
+  {
+   "lon": -7.05,
+   "lat": 31.3501,
+   "w": 0.08488
+  },
+  {
+   "lon": -6.95,
+   "lat": 31.3501,
+   "w": 0.00737
+  }
+ ],
+ "amc_limits_mm": [
+  12.7,
+  27.9
+ ]
+}

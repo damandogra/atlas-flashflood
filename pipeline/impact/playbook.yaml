@@ -1,0 +1,86 @@
+# Early-action playbook for flash floods in the Ounila valley.
+# Modelled on IFRC / Red Cross Early Action Protocols: each action has a trigger computed from the
+# impact model, an owner, a deadline relative to the modelled impact time and a priority.
+# Times are hours relative to the event they reference (negative = before). Edit freely; the
+# pipeline re-generates the action list for every scenario (python -m pipeline.impact.actions).
+
+actions:
+  vigilance:
+    title: Activate the provincial flood vigilance cell
+    owner: Province of Ouarzazate / Caidat (local authority)
+    trigger: any building affected or any ford closed
+    reference: earliest impact in the basin
+    lead_h: -6
+    priority: HIGH
+
+  broadcast:
+    title: Broadcast warning - do not cross or camp in wadi beds, move vehicles out of the wadi
+    owner: Communes (Telouet, Ait Zineb, Ighrem N'Ougdal) + local radio, moqaddems
+    trigger: any ford closed
+    reference: earliest ford closure
+    lead_h: -3
+    priority: HIGH
+
+  close_ford:
+    title: Close the ford and post a guard
+    owner: Gendarmerie Royale + commune (moqaddem)
+    trigger: ford segment unsafe for 4WD
+    reference: ford closure time
+    lead_h: -1
+    priority: CRITICAL
+
+  close_road:
+    title: Close the road section and signpost the diversion
+    owner: Gendarmerie Royale + Provincial Directorate of Equipment (DPETL)
+    trigger: provincial or national road segment unsafe for 4WD
+    reference: road closure time
+    lead_h: -1
+    priority: HIGH
+
+  evacuate:
+    title: Evacuate buildings in significant/extreme hazard or at risk of collapse
+    owner: Caidat + Protection Civile, guided by moqaddems
+    trigger: village has buildings with hazard >= significant or collapse possible
+    reference: first water at the village
+    lead_h: -1.5
+    priority: CRITICAL
+
+  warn_households:
+    title: Door-to-door warning - move valuables and livestock up, prepare to leave
+    owner: Moqaddems + commune volunteers
+    trigger: village has affected buildings (any hazard)
+    reference: first water at the village
+    lead_h: -3
+    priority: HIGH
+
+  prepare_isolation:
+    title: Village will be cut off - pre-position food, water and first-aid kit; move people needing care out
+    owner: Commune + Provincial Health Delegation
+    trigger: village loses 4WD access to the RN9
+    reference: start of isolation
+    lead_h: -2
+    priority: HIGH
+
+  schools:
+    title: Suspend classes or keep pupils inside a dry school until the all-clear
+    owner: Provincial Education Directorate + school director
+    trigger: school building affected, or school village cut off
+    reference: earliest impact in the basin
+    lead_h: -6
+    priority: HIGH
+
+  tourism:
+    title: Alert hotels and guides; suspend excursions in the Ounila gorge and wadi beds
+    owner: Provincial Tourism Delegation + hotel association (Ait Ben Haddou)
+    trigger: tourism building affected, or Ait Ben Haddou access cut
+    reference: earliest impact in the basin
+    lead_h: -4
+    priority: MEDIUM
+
+  reopen:
+    title: Inspect and reopen road/ford once water has receded (check scour, debris)
+    owner: DPETL + Gendarmerie Royale
+    trigger: road or ford was closed
+    reference: end of closure
+    lead_h: 1
+    priority: MEDIUM

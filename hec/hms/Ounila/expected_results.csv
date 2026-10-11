@@ -1,0 +1,43 @@
+element,storm,peak_m3s,time_to_peak_h,volume_hm3
+J01 Ait Ben Haddou,T10_central,424.83,18.17,15.5217
+J02 Tamdakhte,T10_central,410.07,17.75,14.9723
+J03 Tazlaft,T10_central,209.83,18.25,8.2198
+J04 Confluence 372 km2,T10_central,197.14,17.67,7.7272
+J05 Ankhsa,T10_central,165.71,17.58,6.3227
+J06 Taifest,T10_central,201.37,17.08,6.5411
+J07 Confluence 288 km2,T10_central,149.47,17.42,5.7079
+J08 Douar Tigert,T10_central,184.35,16.92,5.9395
+J09 Ait Fars,T10_central,183.93,16.92,5.9203
+J10 Tizgui NBarda,T10_central,167.45,16.67,5.3695
+J11 Assaka,T10_central,145.88,16.42,4.6573
+J12 Tajeguite,T10_central,136.75,16.42,4.3691
+J13 Confluence 183 km2,T10_central,83.94,16.58,3.0779
+J14 Anmiter,T10_central,102.94,16.0,3.1715
+J15 Tighza,T10_central,66.12,15.58,1.9136
+J16 Confluence 71 km2,T10_central,47.51,15.42,1.3959
+J17 Taboughamt,T10_central,15.03,15.0,0.4005
+J18 Telouet,T10_central,11.96,14.5,0.269
+J19 Timjoujte,T10_central,10.85,14.25,0.2443
+J20 Akji,T10_central,8.23,13.67,0.1545
+J21 Ouzlim,T10_central,6.32,13.58,0.1192
+J01 Ait Ben Haddou,T100_central,927.82,17.33,32.6802
+J02 Tamdakhte,T100_central,895.63,17.0,31.5349
+J03 Tazlaft,T100_central,456.42,17.58,17.3655
+J04 Confluence 372 km2,T100_central,429.15,17.17,16.3703
+J05 Ankhsa,T100_central,364.43,17.08,13.4724
+J06 Taifest,T100_central,442.55,16.5,13.7275
+J07 Confluence 288 km2,T100_central,330.41,16.92,12.2664
+J08 Douar Tigert,T100_central,406.0,16.33,12.494
+J09 Ait Fars,T100_central,405.07,16.33,12.4509
+J10 Tizgui NBarda,T100_central,369.05,16.17,11.3329
+J11 Assaka,T100_central,323.54,16.0,9.9316
+J12 Tajeguite,T100_central,304.02,16.0,9.3481
+J13 Confluence 183 km2,T100_central,195.29,16.33,7.0023
+J14 Anmiter,T100_central,233.66,15.67,6.9255
+J15 Tighza,T100_central,150.45,15.25,4.172
+J16 Confluence 71 km2,T100_central,107.18,15.17,3.0297
+J17 Taboughamt,T100_central,35.2,14.67,0.8938
+J18 Telouet,T100_central,29.36,14.08,0.6191
+J19 Timjoujte,T100_central,26.52,14.0,0.561
+J20 Akji,T100_central,21.0,13.42,0.362
+J21 Ouzlim,T100_central,15.78,13.33,0.2749
