@@ -122,16 +122,21 @@ export function paint(r: ScenarioRasters, layer: FloodLayer, t: number | null, b
 
 export const LEGENDS: Record<FloodLayer, { title: string; items: [string, string][] }> = {
   depth: {
-    title: "Maximum water depth",
+    title: "Water depth",
     items: DEPTH_RAMP.map(([v, c], k) => [`rgb(${c})`, k === DEPTH_RAMP.length - 1 ? `> ${v} m` : `${v} m`]),
   },
-  velocity: { title: "Maximum velocity", items: VEL_RAMP.map(([v, c]) => [`rgb(${c})`, `${v} m/s`]) },
+  velocity: { title: "Water speed", items: VEL_RAMP.map(([v, c]) => [`rgb(${c})`, `${v} m/s`]) },
   hazard: {
-    title: "Hazard to people (DEFRA FD2320)",
-    items: [1, 2, 3, 4].map((k) => [`rgb(${HAZARD_COLORS[k]})`, HAZARD_NAMES[k]]),
+    title: "Danger to people in the water",
+    items: [
+      [`rgb(${HAZARD_COLORS[1]})`, "Low — caution"],
+      [`rgb(${HAZARD_COLORS[2]})`, "Moderate — dangerous for children"],
+      [`rgb(${HAZARD_COLORS[3]})`, "Significant — dangerous for most"],
+      [`rgb(${HAZARD_COLORS[4]})`, "Extreme — dangerous for all"],
+    ],
   },
   arrival: {
-    title: "Water arrives, h after the rain burst",
+    title: "When water arrives (after the rain peak)",
     items: ARR_RAMP.map(([v, c]) => [`rgb(${c})`, v < 0 ? "before" : `+${v} h`]),
   },
 };

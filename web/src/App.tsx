@@ -5,7 +5,7 @@ import { useStore } from "./lib/store";
 import { getForecast, type Forecast } from "./lib/forecast";
 import { addReport, listReports, subscribe, type Report } from "./lib/reports";
 import MapView from "./components/MapView";
-import { Rail, Timeline, TopBar } from "./components/Layout";
+import { Rail, StatusStrip, Timeline, TopBar } from "./components/Layout";
 import Situation, { scenarioLabel } from "./components/panels/Situation";
 import Impact from "./components/panels/Impact";
 import Act from "./components/panels/Act";
@@ -82,6 +82,7 @@ function Shell() {
         <main className="stage">
           <MapView scenario={scn} route={route} reports={reportFC} onPick={onPick} />
           {picking && <div className="pick-hint">Click the map where you observed the situation</div>}
+          <StatusStrip impact={impact} />
           <Timeline firstImpact={Number.isFinite(firstImpact) ? firstImpact : null} burst={data.meta.design_burst_h} />
           {scenario && !scn && <div className="loading-chip">Loading flood scenario…</div>}
         </main>
