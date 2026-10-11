@@ -1,0 +1,25 @@
+name: atlas
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy<2.4   # pysheds still uses np.in1d (removed in 2.4)
+  - scipy
+  - pandas
+  - numba
+  - rasterio
+  - rioxarray
+  - xarray
+  - geopandas
+  - shapely
+  - pyproj
+  - pysheds
+  - osmnx
+  - networkx
+  - pillow
+  - matplotlib
+  - pyyaml
+  - requests
+  - pytest
+  - earthengine-api
+  - pip

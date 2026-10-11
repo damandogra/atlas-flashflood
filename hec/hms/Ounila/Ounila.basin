@@ -1,0 +1,879 @@
+Basin: Ounila
+     Description: Ounila at Ait Ben Haddou, exported by the Atlas pipeline
+     Version: 4.12
+     Filepath Separator: \
+     Unit System: Metric
+     Missing Flow To Zero: No
+     Enable Flow Ratio: No
+     Compute Local Flow At Junctions: No
+End:
+
+Subbasin: SB01 Ait Ben Haddou
+     Canvas X: 677990.0
+     Canvas Y: 3436600.0
+     Area: 24.303
+     Downstream: J01 Ait Ben Haddou
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 86.0
+
+     Transform: Clark
+     Time of Concentration: 4.156
+     Storage Coefficient: 4.156
+
+     Baseflow: None
+End:
+
+Junction: J01 Ait Ben Haddou
+     Canvas X: 678390.0
+     Canvas Y: 3436200.0
+     Downstream: Outlet
+End:
+
+Subbasin: SB02 Tamdakhte
+     Canvas X: 676145.0
+     Canvas Y: 3441205.0
+     Area: 9.873
+     Downstream: J02 Tamdakhte
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 84.7
+
+     Transform: Clark
+     Time of Concentration: 2.668
+     Storage Coefficient: 2.668
+
+     Baseflow: None
+End:
+
+Junction: J02 Tamdakhte
+     Canvas X: 676545.0
+     Canvas Y: 3440805.0
+     Downstream: R02 Tamdakhte
+End:
+
+Reach: R02 Tamdakhte
+     Canvas X: 678390.0
+     Canvas Y: 3436200.0
+     From Canvas X: 676545.0
+     From Canvas Y: 3440805.0
+     Downstream: J01 Ait Ben Haddou
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 6389.8
+     Energy Slope: 0.00664
+     Mannings n: 0.045
+     Width: 79.7
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB03 Tazlaft
+     Canvas X: 676325.0
+     Canvas Y: 3441895.0
+     Area: 20.758
+     Downstream: J03 Tazlaft
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 86.2
+
+     Transform: Clark
+     Time of Concentration: 3.722
+     Storage Coefficient: 3.722
+
+     Baseflow: None
+End:
+
+Junction: J03 Tazlaft
+     Canvas X: 676725.0
+     Canvas Y: 3441495.0
+     Downstream: R03 Tazlaft
+End:
+
+Reach: R03 Tazlaft
+     Canvas X: 676545.0
+     Canvas Y: 3440805.0
+     From Canvas X: 676725.0
+     From Canvas Y: 3441495.0
+     Downstream: J02 Tamdakhte
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 984.0
+     Energy Slope: 0.00712
+     Mannings n: 0.045
+     Width: 59.5
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB04 Confluence 372 km2
+     Canvas X: 671945.0
+     Canvas Y: 3446605.0
+     Area: 61.577
+     Downstream: J04 Confluence 372 km2
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 85.0
+
+     Transform: Clark
+     Time of Concentration: 5.684
+     Storage Coefficient: 5.684
+
+     Baseflow: None
+End:
+
+Junction: J04 Confluence 372 km2
+     Canvas X: 672345.0
+     Canvas Y: 3446205.0
+     Downstream: R04 Confluence 372 km2
+End:
+
+Reach: R04 Confluence 372 km2
+     Canvas X: 676725.0
+     Canvas Y: 3441495.0
+     From Canvas X: 672345.0
+     From Canvas Y: 3446205.0
+     Downstream: J03 Tazlaft
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 9758.7
+     Energy Slope: 0.00860
+     Mannings n: 0.045
+     Width: 57.9
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB05 Ankhsa
+     Canvas X: 671795.0
+     Canvas Y: 3446845.0
+     Area: 23.149
+     Downstream: J05 Ankhsa
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 87.6
+
+     Transform: Clark
+     Time of Concentration: 2.884
+     Storage Coefficient: 2.884
+
+     Baseflow: None
+End:
+
+Junction: J05 Ankhsa
+     Canvas X: 672195.0
+     Canvas Y: 3446445.0
+     Downstream: R05 Ankhsa
+End:
+
+Reach: R05 Ankhsa
+     Canvas X: 672345.0
+     Canvas Y: 3446205.0
+     From Canvas X: 672195.0
+     From Canvas Y: 3446445.0
+     Downstream: J04 Confluence 372 km2
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 302.1
+     Energy Slope: 0.01865
+     Mannings n: 0.045
+     Width: 52.9
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB06 Taifest
+     Canvas X: 677435.0
+     Canvas Y: 3444085.0
+     Area: 25.877
+     Downstream: J06 Taifest
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 85.3
+
+     Transform: Clark
+     Time of Concentration: 3.853
+     Storage Coefficient: 3.853
+
+     Baseflow: None
+End:
+
+Junction: J06 Taifest
+     Canvas X: 677835.0
+     Canvas Y: 3443685.0
+     Downstream: R06 Taifest
+End:
+
+Reach: R06 Taifest
+     Canvas X: 676545.0
+     Canvas Y: 3440805.0
+     From Canvas X: 677835.0
+     From Canvas Y: 3443685.0
+     Downstream: J02 Tamdakhte
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 3919.2
+     Energy Slope: 0.00902
+     Mannings n: 0.045
+     Width: 52.3
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB07 Confluence 288 km2
+     Canvas X: 670415.0
+     Canvas Y: 3450625.0
+     Area: 104.950
+     Downstream: J07 Confluence 288 km2
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 86.3
+
+     Transform: Clark
+     Time of Concentration: 4.813
+     Storage Coefficient: 4.813
+
+     Baseflow: None
+End:
+
+Junction: J07 Confluence 288 km2
+     Canvas X: 670815.0
+     Canvas Y: 3450225.0
+     Downstream: R07 Confluence 288 km2
+End:
+
+Reach: R07 Confluence 288 km2
+     Canvas X: 672195.0
+     Canvas Y: 3446445.0
+     From Canvas X: 670815.0
+     From Canvas Y: 3450225.0
+     Downstream: J05 Ankhsa
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 5260.1
+     Energy Slope: 0.01326
+     Mannings n: 0.045
+     Width: 50.9
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB08 Douar Tigert
+     Canvas X: 677795.0
+     Canvas Y: 3445915.0
+     Area: 1.082
+     Downstream: J08 Douar Tigert
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 82.6
+
+     Transform: Clark
+     Time of Concentration: 1.043
+     Storage Coefficient: 1.043
+
+     Baseflow: None
+End:
+
+Junction: J08 Douar Tigert
+     Canvas X: 678195.0
+     Canvas Y: 3445515.0
+     Downstream: R08 Douar Tigert
+End:
+
+Reach: R08 Douar Tigert
+     Canvas X: 677835.0
+     Canvas Y: 3443685.0
+     From Canvas X: 678195.0
+     From Canvas Y: 3445515.0
+     Downstream: J06 Taifest
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 2513.1
+     Energy Slope: 0.01052
+     Mannings n: 0.045
+     Width: 50.0
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB09 Ait Fars
+     Canvas X: 678395.0
+     Canvas Y: 3446575.0
+     Area: 22.898
+     Downstream: J09 Ait Fars
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 85.9
+
+     Transform: Clark
+     Time of Concentration: 2.688
+     Storage Coefficient: 2.688
+
+     Baseflow: None
+End:
+
+Junction: J09 Ait Fars
+     Canvas X: 678795.0
+     Canvas Y: 3446175.0
+     Downstream: R09 Ait Fars
+End:
+
+Reach: R09 Ait Fars
+     Canvas X: 678195.0
+     Canvas Y: 3445515.0
+     From Canvas X: 678795.0
+     From Canvas Y: 3446175.0
+     Downstream: J08 Douar Tigert
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 1176.4
+     Energy Slope: 0.01188
+     Mannings n: 0.045
+     Width: 49.9
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB10 Tizgui NBarda
+     Canvas X: 677885.0
+     Canvas Y: 3449305.0
+     Area: 26.947
+     Downstream: J10 Tizgui NBarda
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 87.3
+
+     Transform: Clark
+     Time of Concentration: 2.489
+     Storage Coefficient: 2.489
+
+     Baseflow: None
+End:
+
+Junction: J10 Tizgui NBarda
+     Canvas X: 678285.0
+     Canvas Y: 3448905.0
+     Downstream: R10 Tizgui NBarda
+End:
+
+Reach: R10 Tizgui NBarda
+     Canvas X: 678795.0
+     Canvas Y: 3446175.0
+     From Canvas X: 678285.0
+     From Canvas Y: 3448905.0
+     Downstream: J09 Ait Fars
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 4920.7
+     Energy Slope: 0.01208
+     Mannings n: 0.045
+     Width: 47.8
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB11 Assaka
+     Canvas X: 677255.0
+     Canvas Y: 3454585.0
+     Area: 11.801
+     Downstream: J11 Assaka
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 86.1
+
+     Transform: Clark
+     Time of Concentration: 2.349
+     Storage Coefficient: 2.349
+
+     Baseflow: None
+End:
+
+Junction: J11 Assaka
+     Canvas X: 677655.0
+     Canvas Y: 3454185.0
+     Downstream: R11 Assaka
+End:
+
+Reach: R11 Assaka
+     Canvas X: 678285.0
+     Canvas Y: 3448905.0
+     From Canvas X: 677655.0
+     From Canvas Y: 3454185.0
+     Downstream: J10 Tizgui NBarda
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 6734.4
+     Energy Slope: 0.02266
+     Mannings n: 0.045
+     Width: 45.2
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB12 Tajeguite
+     Canvas X: 676745.0
+     Canvas Y: 3455635.0
+     Area: 49.591
+     Downstream: J12 Tajeguite
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 85.7
+
+     Transform: Clark
+     Time of Concentration: 4.028
+     Storage Coefficient: 4.028
+
+     Baseflow: None
+End:
+
+Junction: J12 Tajeguite
+     Canvas X: 677145.0
+     Canvas Y: 3455235.0
+     Downstream: R12 Tajeguite
+End:
+
+Reach: R12 Tajeguite
+     Canvas X: 677655.0
+     Canvas Y: 3454185.0
+     From Canvas X: 677145.0
+     From Canvas Y: 3455235.0
+     Downstream: J11 Assaka
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 1296.4
+     Energy Slope: 0.00542
+     Mannings n: 0.045
+     Width: 44.0
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB13 Confluence 183 km2
+     Canvas X: 663665.0
+     Canvas Y: 3459025.0
+     Area: 134.069
+     Downstream: J13 Confluence 183 km2
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 80.1
+
+     Transform: Clark
+     Time of Concentration: 4.641
+     Storage Coefficient: 4.641
+
+     Baseflow: None
+End:
+
+Junction: J13 Confluence 183 km2
+     Canvas X: 664065.0
+     Canvas Y: 3458625.0
+     Downstream: R13 Confluence 183 km2
+End:
+
+Reach: R13 Confluence 183 km2
+     Canvas X: 670815.0
+     Canvas Y: 3450225.0
+     From Canvas X: 664065.0
+     From Canvas Y: 3458625.0
+     Downstream: J07 Confluence 288 km2
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 13587.9
+     Energy Slope: 0.01380
+     Mannings n: 0.045
+     Width: 40.6
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB14 Anmiter
+     Canvas X: 675785.0
+     Canvas Y: 3461785.0
+     Area: 66.096
+     Downstream: J14 Anmiter
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 82.0
+
+     Transform: Clark
+     Time of Concentration: 3.684
+     Storage Coefficient: 3.684
+
+     Baseflow: None
+End:
+
+Junction: J14 Anmiter
+     Canvas X: 676185.0
+     Canvas Y: 3461385.0
+     Downstream: R14 Anmiter
+End:
+
+Reach: R14 Anmiter
+     Canvas X: 677145.0
+     Canvas Y: 3455235.0
+     From Canvas X: 676185.0
+     From Canvas Y: 3461385.0
+     Downstream: J12 Tajeguite
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 7978.1
+     Energy Slope: 0.01624
+     Mannings n: 0.045
+     Width: 38.6
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB15 Tighza
+     Canvas X: 677765.0
+     Canvas Y: 3464875.0
+     Area: 27.979
+     Downstream: J15 Tighza
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 81.5
+
+     Transform: Clark
+     Time of Concentration: 2.463
+     Storage Coefficient: 2.463
+
+     Baseflow: None
+End:
+
+Junction: J15 Tighza
+     Canvas X: 678165.0
+     Canvas Y: 3464475.0
+     Downstream: R15 Tighza
+End:
+
+Reach: R15 Tighza
+     Canvas X: 676185.0
+     Canvas Y: 3461385.0
+     From Canvas X: 678165.0
+     From Canvas Y: 3464475.0
+     Downstream: J14 Anmiter
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 5565.3
+     Energy Slope: 0.01857
+     Mannings n: 0.045
+     Width: 29.9
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB16 Confluence 71 km2
+     Canvas X: 683075.0
+     Canvas Y: 3466525.0
+     Area: 71.268
+     Downstream: J16 Confluence 71 km2
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 82.5
+
+     Transform: Clark
+     Time of Concentration: 2.954
+     Storage Coefficient: 2.954
+
+     Baseflow: None
+End:
+
+Junction: J16 Confluence 71 km2
+     Canvas X: 683475.0
+     Canvas Y: 3466125.0
+     Downstream: R16 Confluence 71 km2
+End:
+
+Reach: R16 Confluence 71 km2
+     Canvas X: 678165.0
+     Canvas Y: 3464475.0
+     From Canvas X: 683475.0
+     From Canvas Y: 3466125.0
+     Downstream: J15 Tighza
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 6569.8
+     Energy Slope: 0.04208
+     Mannings n: 0.045
+     Width: 25.3
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB17 Taboughamt
+     Canvas X: 669725.0
+     Canvas Y: 3464665.0
+     Area: 22.268
+     Downstream: J17 Taboughamt
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 81.2
+
+     Transform: Clark
+     Time of Concentration: 2.462
+     Storage Coefficient: 2.462
+
+     Baseflow: None
+End:
+
+Junction: J17 Taboughamt
+     Canvas X: 670125.0
+     Canvas Y: 3464265.0
+     Downstream: R17 Taboughamt
+End:
+
+Reach: R17 Taboughamt
+     Canvas X: 664065.0
+     Canvas Y: 3458625.0
+     From Canvas X: 670125.0
+     From Canvas Y: 3464265.0
+     Downstream: J13 Confluence 183 km2
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 9968.7
+     Energy Slope: 0.01699
+     Mannings n: 0.045
+     Width: 14.2
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB18 Telouet
+     Canvas X: 666755.0
+     Canvas Y: 3463105.0
+     Area: 1.639
+     Downstream: J18 Telouet
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 78.2
+
+     Transform: Clark
+     Time of Concentration: 1.521
+     Storage Coefficient: 1.521
+
+     Baseflow: None
+End:
+
+Junction: J18 Telouet
+     Canvas X: 667155.0
+     Canvas Y: 3462705.0
+     Downstream: R18 Telouet
+End:
+
+Reach: R18 Telouet
+     Canvas X: 664065.0
+     Canvas Y: 3458625.0
+     From Canvas X: 667155.0
+     From Canvas Y: 3462705.0
+     Downstream: J13 Confluence 183 km2
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 6272.0
+     Energy Slope: 0.01571
+     Mannings n: 0.045
+     Width: 12.2
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB19 Timjoujte
+     Canvas X: 666395.0
+     Canvas Y: 3465685.0
+     Area: 14.822
+     Downstream: J19 Timjoujte
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 79.9
+
+     Transform: Clark
+     Time of Concentration: 1.777
+     Storage Coefficient: 1.777
+
+     Baseflow: None
+End:
+
+Junction: J19 Timjoujte
+     Canvas X: 666795.0
+     Canvas Y: 3465285.0
+     Downstream: R19 Timjoujte
+End:
+
+Reach: R19 Timjoujte
+     Canvas X: 667155.0
+     Canvas Y: 3462705.0
+     From Canvas X: 666795.0
+     From Canvas Y: 3465285.0
+     Downstream: J18 Telouet
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 3137.1
+     Energy Slope: 0.04201
+     Mannings n: 0.045
+     Width: 11.5
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB20 Akji
+     Canvas X: 664055.0
+     Canvas Y: 3463315.0
+     Area: 2.641
+     Downstream: J20 Akji
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 76.9
+
+     Transform: Clark
+     Time of Concentration: 1.036
+     Storage Coefficient: 1.036
+
+     Baseflow: None
+End:
+
+Junction: J20 Akji
+     Canvas X: 664455.0
+     Canvas Y: 3462915.0
+     Downstream: R20 Akji
+End:
+
+Reach: R20 Akji
+     Canvas X: 664065.0
+     Canvas Y: 3458625.0
+     From Canvas X: 664455.0
+     From Canvas Y: 3462915.0
+     Downstream: J13 Confluence 183 km2
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 7535.4
+     Energy Slope: 0.02244
+     Mannings n: 0.045
+     Width: 9.5
+     Space-Time Method: Automatic DX and DT
+End:
+
+Subbasin: SB21 Ouzlim
+     Canvas X: 663605.0
+     Canvas Y: 3464545.0
+     Area: 7.331
+     Downstream: J21 Ouzlim
+
+     Canopy: None
+     Surface: None
+     LossRate: SCS
+     Percent Impervious Area: 0.0
+     Curve Number: 79.7
+
+     Transform: Clark
+     Time of Concentration: 1.236
+     Storage Coefficient: 1.236
+
+     Baseflow: None
+End:
+
+Junction: J21 Ouzlim
+     Canvas X: 664005.0
+     Canvas Y: 3464145.0
+     Downstream: R21 Ouzlim
+End:
+
+Reach: R21 Ouzlim
+     Canvas X: 664455.0
+     Canvas Y: 3462915.0
+     From Canvas X: 664005.0
+     From Canvas Y: 3464145.0
+     Downstream: J20 Akji
+
+     Route: Muskingum Cunge
+     Channel Loss: None
+     Channel: Rectangle
+     Length: 1561.2
+     Energy Slope: 0.04246
+     Mannings n: 0.045
+     Width: 8.1
+     Space-Time Method: Automatic DX and DT
+End:
+
+Sink: Outlet
+     Canvas X: 678390.0
+     Canvas Y: 3435400.0
+End:

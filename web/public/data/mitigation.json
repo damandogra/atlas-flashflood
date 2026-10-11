@@ -1,0 +1,527 @@
+{
+ "headwater_subbasins": [
+  21,
+  19,
+  17,
+  16
+ ],
+ "headwater_area_km2": 115.7,
+ "measures": {
+  "T10": {
+   "baseline": {
+    "outlet_peak_m3s": 425.0,
+    "buildings_affected": 110.0,
+    "people_affected": 110.1,
+    "collapse_possible": 19.0
+   },
+   "restoration": {
+    "description": "CN -6.0 on 4 headwater sub-basins (116 km2)",
+    "outlet_peak_m3s": 393.9,
+    "peak_reduction_pct": 7.3,
+    "buildings_affected": 100.5,
+    "people_affected": 100.3,
+    "collapse_possible": 13.3,
+    "avoided": {
+     "buildings_affected": 9.5,
+     "people_affected": 9.8,
+     "collapse_possible": 5.7
+    }
+   },
+   "check_dams": {
+    "description": "25 check dams x 1500 m3 in each of 4 headwater sub-basins",
+    "outlet_peak_m3s": 425.0,
+    "peak_reduction_pct": 0.0,
+    "buildings_affected": 110.0,
+    "people_affected": 110.1,
+    "collapse_possible": 19.0,
+    "avoided": {
+     "buildings_affected": 0.0,
+     "people_affected": 0.0,
+     "collapse_possible": 0.0
+    }
+   },
+   "crossings": {
+    "description": "flood-proof the 10 road links that cut most villages off (raised crossing / protected embankment, +1.0 m)",
+    "baseline_village_hours": 402.5,
+    "baseline_isolated": [
+     "Ait Fars",
+     "Akji",
+     "Ankhsa",
+     "Anmiter",
+     "Assaka",
+     "Aït Hammou",
+     "Douar Tigert",
+     "Ouzlim",
+     "Taboughamt",
+     "Taifest",
+     "Tajeguite",
+     "Tamdakhte",
+     "Tazlaft",
+     "Tigherte",
+     "Tighza",
+     "Tiliwine",
+     "Timjoujte",
+     "Tizgui N'Barda",
+     "Télouet"
+    ],
+    "ranked_links": [
+     {
+      "segment": 3202,
+      "village_hours_charged": 212.5,
+      "ford": false,
+      "highway": "tertiary",
+      "label": "RP1506",
+      "max_depth_m": 0.59,
+      "lonlat": [
+       -7.25013,
+       31.27647
+      ]
+     },
+     {
+      "segment": 3201,
+      "village_hours_charged": 212.5,
+      "ford": false,
+      "highway": "tertiary",
+      "label": "RP1506",
+      "max_depth_m": 0.44,
+      "lonlat": [
+       -7.25114,
+       31.27465
+      ]
+     },
+     {
+      "segment": 394,
+      "village_hours_charged": 190.0,
+      "ford": false,
+      "highway": "tertiary",
+      "label": "RP1506",
+      "max_depth_m": 0.83,
+      "lonlat": [
+       -7.14248,
+       31.07482
+      ]
+     },
+     {
+      "segment": 67,
+      "village_hours_charged": 190.0,
+      "ford": false,
+      "highway": "tertiary",
+      "label": "RP1506",
+      "max_depth_m": 2.74,
+      "lonlat": [
+       -7.14177,
+       31.07196
+      ]
+     },
+     {
+      "segment": 2095,
+      "village_hours_charged": 43.0,
+      "ford": true,
+      "highway": "track",
+      "label": "track road",
+      "max_depth_m": 1.02,
+      "lonlat": [
+       -7.14952,
+       31.28461
+      ]
+     },
+     {
+      "segment": 633,
+      "village_hours_charged": 22.5,
+      "ford": true,
+      "highway": "track",
+      "label": "track road",
+      "max_depth_m": 1.28,
+      "lonlat": [
+       -7.12996,
+       31.30004
+      ]
+     },
+     {
+      "segment": 1609,
+      "village_hours_charged": 22.0,
+      "ford": false,
+      "highway": "track",
+      "label": "track road",
+      "max_depth_m": 0.53,
+      "lonlat": [
+       -7.1879,
+       31.13231
+      ]
+     },
+     {
+      "segment": 1610,
+      "village_hours_charged": 22.0,
+      "ford": true,
+      "highway": "track",
+      "label": "track road",
+      "max_depth_m": 1.79,
+      "lonlat": [
+       -7.16811,
+       31.11633
+      ]
+     }
+    ],
+    "flood_proofed": [
+     3202,
+     3201,
+     394,
+     67,
+     2095,
+     633,
+     1609,
+     1610
+    ],
+    "with_works_village_hours": 144.0,
+    "with_works_isolated": [
+     "Ait Fars",
+     "Ankhsa",
+     "Assaka",
+     "Douar Tigert",
+     "Taifest",
+     "Tajeguite",
+     "Tamdakhte",
+     "Tazlaft",
+     "Tizgui N'Barda"
+    ],
+    "reconnected": [
+     "Akji",
+     "Anmiter",
+     "Aït Hammou",
+     "Ouzlim",
+     "Taboughamt",
+     "Tigherte",
+     "Tighza",
+     "Tiliwine",
+     "Timjoujte",
+     "Télouet"
+    ]
+   }
+  },
+  "T100": {
+   "baseline": {
+    "outlet_peak_m3s": 927.8,
+    "buildings_affected": 202.0,
+    "people_affected": 223.5,
+    "collapse_possible": 33.0
+   },
+   "restoration": {
+    "description": "CN -6.0 on 4 headwater sub-basins (116 km2)",
+    "outlet_peak_m3s": 881.9,
+    "peak_reduction_pct": 4.9,
+    "buildings_affected": 187.1,
+    "people_affected": 206.6,
+    "collapse_possible": 30.3,
+    "avoided": {
+     "buildings_affected": 14.9,
+     "people_affected": 16.9,
+     "collapse_possible": 2.7
+    }
+   },
+   "check_dams": {
+    "description": "25 check dams x 1500 m3 in each of 4 headwater sub-basins",
+    "outlet_peak_m3s": 927.8,
+    "peak_reduction_pct": -0.0,
+    "buildings_affected": 202.0,
+    "people_affected": 223.5,
+    "collapse_possible": 33.0,
+    "avoided": {
+     "buildings_affected": 0.0,
+     "people_affected": 0.0,
+     "collapse_possible": 0.0
+    }
+   },
+   "crossings": {
+    "description": "flood-proof the 10 road links that cut most villages off (raised crossing / protected embankment, +1.0 m)",
+    "baseline_village_hours": 434.5,
+    "baseline_isolated": [
+     "Ait Fars",
+     "Akji",
+     "Ankhsa",
+     "Anmiter",
+     "Assaka",
+     "Aït Hammou",
+     "Douar Tigert",
+     "Ouzlim",
+     "Taboughamt",
+     "Taifest",
+     "Tajeguite",
+     "Tamdakhte",
+     "Tazlaft",
+     "Tigherte",
+     "Tighza",
+     "Tiliwine",
+     "Timjoujte",
+     "Tizgui N'Barda",
+     "Télouet"
+    ],
+    "ranked_links": [
+     {
+      "segment": 3202,
+      "village_hours_charged": 229.0,
+      "ford": false,
+      "highway": "tertiary",
+      "label": "RP1506",
+      "max_depth_m": 0.9,
+      "lonlat": [
+       -7.25013,
+       31.27647
+      ]
+     },
+     {
+      "segment": 3201,
+      "village_hours_charged": 229.0,
+      "ford": false,
+      "highway": "tertiary",
+      "label": "RP1506",
+      "max_depth_m": 0.73,
+      "lonlat": [
+       -7.25114,
+       31.27465
+      ]
+     },
+     {
+      "segment": 9,
+      "village_hours_charged": 229.0,
+      "ford": false,
+      "highway": "tertiary",
+      "label": "RP1506",
+      "max_depth_m": 0.86,
+      "lonlat": [
+       -7.25205,
+       31.27212
+      ]
+     },
+     {
+      "segment": 3312,
+      "village_hours_charged": 229.0,
+      "ford": false,
+      "highway": "tertiary",
+      "label": "RP1506",
+      "max_depth_m": 0.4,
+      "lonlat": [
+       -7.35512,
+       31.26257
+      ]
+     },
+     {
+      "segment": 394,
+      "village_hours_charged": 205.5,
+      "ford": false,
+      "highway": "tertiary",
+      "label": "RP1506",
+      "max_depth_m": 1.9,
+      "lonlat": [
+       -7.14248,
+       31.07482
+      ]
+     },
+     {
+      "segment": 67,
+      "village_hours_charged": 205.5,
+      "ford": false,
+      "highway": "tertiary",
+      "label": "RP1506",
+      "max_depth_m": 3.91,
+      "lonlat": [
+       -7.14177,
+       31.07196
+      ]
+     },
+     {
+      "segment": 10,
+      "village_hours_charged": 184.0,
+      "ford": false,
+      "highway": "tertiary",
+      "label": "RP1506",
+      "max_depth_m": 0.45,
+      "lonlat": [
+       -7.24308,
+       31.28443
+      ]
+     },
+     {
+      "segment": 3208,
+      "village_hours_charged": 184.0,
+      "ford": false,
+      "highway": "tertiary",
+      "label": "RP1506",
+      "max_depth_m": 0.66,
+      "lonlat": [
+       -7.24507,
+       31.28236
+      ]
+     },
+     {
+      "segment": 406,
+      "village_hours_charged": 182.5,
+      "ford": false,
+      "highway": "tertiary",
+      "label": "RP1506",
+      "max_depth_m": 2.68,
+      "lonlat": [
+       -7.13688,
+       31.11222
+      ]
+     },
+     {
+      "segment": 376,
+      "village_hours_charged": 182.5,
+      "ford": false,
+      "highway": "tertiary",
+      "label": "RP1506",
+      "max_depth_m": 0.48,
+      "lonlat": [
+       -7.13971,
+       31.10511
+      ]
+     },
+     {
+      "segment": 1450,
+      "village_hours_charged": 94.0,
+      "ford": false,
+      "highway": "tertiary",
+      "label": "RP1506",
+      "max_depth_m": 0.43,
+      "lonlat": [
+       -7.21319,
+       31.29669
+      ]
+     },
+     {
+      "segment": 95,
+      "village_hours_charged": 67.5,
+      "ford": false,
+      "highway": "tertiary",
+      "label": "RP1506",
+      "max_depth_m": 0.67,
+      "lonlat": [
+       -7.13473,
+       31.15
+      ]
+     },
+     {
+      "segment": 801,
+      "village_hours_charged": 48.0,
+      "ford": false,
+      "highway": "track",
+      "label": "Anmiter to RN23 piste H2",
+      "max_depth_m": 0.37,
+      "lonlat": [
+       -7.13033,
+       31.24669
+      ]
+     },
+     {
+      "segment": 802,
+      "village_hours_charged": 48.0,
+      "ford": false,
+      "highway": "track",
+      "label": "Anmiter to RN23 piste H2",
+      "max_depth_m": 0.37,
+      "lonlat": [
+       -7.13971,
+       31.27009
+      ]
+     },
+     {
+      "segment": 2095,
+      "village_hours_charged": 48.0,
+      "ford": true,
+      "highway": "track",
+      "label": "track road",
+      "max_depth_m": 1.46,
+      "lonlat": [
+       -7.14952,
+       31.28461
+      ]
+     },
+     {
+      "segment": 633,
+      "village_hours_charged": 23.5,
+      "ford": true,
+      "highway": "track",
+      "label": "track road",
+      "max_depth_m": 2.02,
+      "lonlat": [
+       -7.12996,
+       31.30004
+      ]
+     },
+     {
+      "segment": 1609,
+      "village_hours_charged": 23.0,
+      "ford": false,
+      "highway": "track",
+      "label": "track road",
+      "max_depth_m": 0.83,
+      "lonlat": [
+       -7.1879,
+       31.13231
+      ]
+     },
+     {
+      "segment": 1610,
+      "village_hours_charged": 23.0,
+      "ford": true,
+      "highway": "track",
+      "label": "track road",
+      "max_depth_m": 2.64,
+      "lonlat": [
+       -7.16811,
+       31.11633
+      ]
+     },
+     {
+      "segment": 28,
+      "village_hours_charged": 22.5,
+      "ford": false,
+      "highway": "tertiary",
+      "label": "RP1506",
+      "max_depth_m": 0.59,
+      "lonlat": [
+       -7.15043,
+       31.28467
+      ]
+     }
+    ],
+    "flood_proofed": [
+     3202,
+     3201,
+     9,
+     3312,
+     394,
+     67,
+     10,
+     3208,
+     406,
+     376
+    ],
+    "with_works_village_hours": 281.5,
+    "with_works_isolated": [
+     "Ait Fars",
+     "Ankhsa",
+     "Anmiter",
+     "Assaka",
+     "Douar Tigert",
+     "Taifest",
+     "Tajeguite",
+     "Tamdakhte",
+     "Tazlaft",
+     "Tigherte",
+     "Tighza",
+     "Tiliwine",
+     "Tizgui N'Barda"
+    ],
+    "reconnected": [
+     "Akji",
+     "Aït Hammou",
+     "Ouzlim",
+     "Taboughamt",
+     "Timjoujte",
+     "Télouet"
+    ]
+   }
+  }
+ }
+}

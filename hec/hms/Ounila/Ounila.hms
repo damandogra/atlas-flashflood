@@ -1,0 +1,24 @@
+Project: Ounila
+     Description: Atlas v2 cross-check of the Python HMS-equivalent engine
+     Version: 4.12
+     Filepath Separator: \
+     DSS File Name: Ounila.dss
+     Time Zone ID: UTC
+     Time Zone GMT Offset: 0
+End:
+
+Basin: Ounila
+     Filename: Ounila.basin
+End:
+
+Precipitation: T10_central
+     Filename: T10_central.met
+End:
+
+Precipitation: T100_central
+     Filename: T100_central.met
+End:
+
+Control: Design_48h
+     FileName: Ounila.control
+End:

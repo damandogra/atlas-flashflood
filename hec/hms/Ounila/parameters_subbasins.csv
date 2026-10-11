@@ -1,0 +1,22 @@
+subbasin,name,area_km2,curve_number,initial_abstraction,tc_h,storage_coefficient_h,downstream_junction,tc_kirpich_h,tc_giandotti_h,tc_temez_h
+SB01 Ait Ben Haddou,Ait Ben Haddou,24.303,86.0,blank (=0.2 S),4.156,4.156,J01 Ait Ben Haddou,1.751,4.243,4.068
+SB02 Tamdakhte,Tamdakhte,9.873,84.7,blank (=0.2 S),2.668,2.668,J02 Tamdakhte,1.155,2.576,2.76
+SB03 Tazlaft,Tazlaft,20.758,86.2,blank (=0.2 S),3.722,3.722,J03 Tazlaft,1.657,3.638,3.807
+SB04 Confluence 372 km2,Confluence 372 km2,61.577,85.0,blank (=0.2 S),5.684,5.684,J04 Confluence 372 km2,3.177,4.098,7.269
+SB05 Ankhsa,Ankhsa,23.149,87.6,blank (=0.2 S),2.884,2.884,J05 Ankhsa,1.273,2.602,3.167
+SB06 Taifest,Taifest,25.877,85.3,blank (=0.2 S),3.853,3.853,J06 Taifest,1.712,3.612,4.095
+SB07 Confluence 288 km2,Confluence 288 km2,104.95,86.3,blank (=0.2 S),4.813,4.813,J07 Confluence 288 km2,2.197,4.455,5.171
+SB08 Douar Tigert,Douar Tigert,1.082,82.6,blank (=0.2 S),1.043,1.043,J08 Douar Tigert,0.344,1.196,0.891
+SB09 Ait Fars,Ait Fars,22.898,85.9,blank (=0.2 S),2.688,2.688,J09 Ait Fars,1.033,2.803,2.572
+SB10 Tizgui NBarda,Tizgui N'Barda,26.947,87.3,blank (=0.2 S),2.489,2.489,J10 Tizgui NBarda,1.01,2.349,2.628
+SB11 Assaka,Assaka,11.801,86.1,blank (=0.2 S),2.349,2.349,J11 Assaka,1.099,1.923,2.774
+SB12 Tajeguite,Tajeguite,49.591,85.7,blank (=0.2 S),4.028,4.028,J12 Tajeguite,1.795,3.533,4.524
+SB13 Confluence 183 km2,Confluence 183 km2,134.069,80.1,blank (=0.2 S),4.641,4.641,J13 Confluence 183 km2,1.777,4.81,4.473
+SB14 Anmiter,Anmiter,66.096,82.0,blank (=0.2 S),3.684,3.684,J14 Anmiter,1.636,3.044,4.324
+SB15 Tighza,Tighza,27.979,81.5,blank (=0.2 S),2.463,2.463,J15 Tighza,1.058,2.099,2.828
+SB16 Confluence 71 km2,Confluence 71 km2,71.268,82.5,blank (=0.2 S),2.954,2.954,J16 Confluence 71 km2,1.186,2.682,3.227
+SB17 Taboughamt,Taboughamt,22.268,81.2,blank (=0.2 S),2.462,2.462,J17 Taboughamt,1.108,1.899,3.026
+SB18 Telouet,Télouet,1.639,78.2,blank (=0.2 S),1.521,1.521,J18 Telouet,0.634,1.476,1.566
+SB19 Timjoujte,Timjoujte,14.822,79.9,blank (=0.2 S),1.777,1.777,J19 Timjoujte,0.673,1.494,2.061
+SB20 Akji,Akji,2.641,76.9,blank (=0.2 S),1.036,1.036,J20 Akji,0.337,0.983,1.089
+SB21 Ouzlim,Ouzlim,7.331,79.7,blank (=0.2 S),1.236,1.236,J21 Ouzlim,0.454,1.078,1.394

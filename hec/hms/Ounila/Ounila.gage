@@ -1,0 +1,28 @@
+Gage Manager: Ounila
+     Version: 4.12
+     Filepath Separator: \
+End:
+
+Gage: T10_central
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Source Type: Manual Entry
+     Local to Project: Yes
+     Start Time: 01Jan2000, 00:00
+     End Time: 03Jan2000, 00:00
+     DSS File: Ounila.dss
+     Pathname: /OUNILA/T10_CENTRAL/PRECIP-INC//15MIN/DESIGN/
+End:
+
+Gage: T100_central
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Source Type: Manual Entry
+     Local to Project: Yes
+     Start Time: 01Jan2000, 00:00
+     End Time: 03Jan2000, 00:00
+     DSS File: Ounila.dss
+     Pathname: /OUNILA/T100_CENTRAL/PRECIP-INC//15MIN/DESIGN/
+End:

@@ -1,0 +1,12 @@
+class,description,mannings_n
+10,tree cover,0.1
+20,shrubland,0.06
+30,grassland,0.035
+40,cropland,0.04
+50,built-up,0.08
+60,bare/sparse,0.03
+70,snow/ice,0.03
+80,water,0.03
+90,wetland,0.07
+100,moss/lichen,0.03
+200,channel (drainage >= 5 km2),0.045

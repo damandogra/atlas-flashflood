@@ -1,0 +1,14 @@
+{
+ "return_period": 100,
+ "inflow_peaks_m3s": {
+  "Tazlaft": 456.4,
+  "Taifest": 442.6
+ },
+ "outflow_normal_depth_slope": 0.00296,
+ "cells": 10983,
+ "area_km2": 9.88,
+ "expected_peak_outflow_m3s": 882.3,
+ "expected_flooded_km2_gt_0.1m": 1.74,
+ "expected_max_depth_m": 4.89,
+ "mass_error": -0.0
+}
