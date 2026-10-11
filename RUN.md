@@ -52,6 +52,19 @@ python -m pipeline.data.figures && python -m pipeline.hydrology.figures && pytho
 python -m pytest tests && (cd web && npx vitest run)
 ```
 
+## Updating the live site after a model change
+
+The website **does not run the model**. It reads the committed data bundle in `web/public/data/`. GitHub Actions only refreshes the weather forecast every 6 hours; it never reruns the hydrology, the 2D floods or the impacts.
+
+So after changing anything in the pipeline (parameters, data, playbook, thresholds):
+
+1. Rerun the affected steps above, and everything downstream of them.
+2. Rebuild the bundle: `python -m pipeline.export.web`. It also checks that every JSON file is valid.
+3. Optionally check it locally: `cd web && npm run dev`.
+4. Commit `web/public/data/` (and `docs/figures/` if they changed) and push to `main`. The deploy workflow publishes it in about 2 minutes.
+
+If you skip step 2 or 4, the live site keeps showing the old results.
+
 ## Changing the early-action protocol
 
 Edit `pipeline/impact/playbook.yaml` (owners, lead times, priorities), then run:

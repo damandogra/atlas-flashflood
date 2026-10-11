@@ -63,6 +63,7 @@ legacy/              the original 48-hour hackathon code (reference only)
   ```
   Then open http://localhost:5173/atlas-flashflood/.
 - **Rebuilding the model** from scratch (Earth Engine access is needed): see [`RUN.md`](RUN.md).
+- **Updating the live site after a model change:** the site reads the committed bundle in `web/public/data/`, and CI only refreshes the forecast. Run `python -m pipeline.export.web`, then commit and push the bundle (details in [`RUN.md`](RUN.md#updating-the-live-site-after-a-model-change)).
 - **Deploying:**
   1. Push to `main`.
   2. Under Settings → Pages, set the source to **GitHub Actions**.
